@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Arial', sans-serif; /* Set the default font family */
+  font-weight: bold;
+}
+/* Style for the container to center the form */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Centering the text for the card header */
+.card h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Style for the labels in the form */
+.login-label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #555;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Style for the form input fields */
+.form-control {
+  border-radius: 5px;
+  padding: 10px;
+ 
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+/* Style for the button */
+#login-btn {
+  background-color: rgb(92, 31, 235);
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#login-btn:hover {
+  background-color: #218838;
 }
+
+/* Spacing and layout adjustments */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.p-4 {
+  padding: 1.5rem !important;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.form-control {
+  width: 300px;
+}
+
+
+#signup-btn{
+  background-color: rgb(92, 31, 235);
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+

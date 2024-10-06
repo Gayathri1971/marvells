@@ -1,9 +1,11 @@
-import login from "./Components/login";
-
+import Loginform from "./Components/Loginform"; 
+import SignUp_form from "./Signinform";
+import './App.css';
 function App() {
   return (
     <div className="App">
-        <login />
+      <Loginform /> 
+      <SignUp_form/>
     </div>
   );
 }
